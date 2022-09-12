@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Whole body */
+body {
+  font-family: sans-serif;
+  color: rgb(96, 96, 96);
+  background-color: antiquewhite;
+}
+/* Heading 1 */
+h1 {
+  color: brown;
+  background-color: rgb(225, 189, 189);
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.product {
+}
+/* Image */
+.image {
+  border: 5px solid #000;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+/* price */
+.price {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+/* shipping */
+.shipping {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/*motivation line edit*/
+.motivation {
+  margin-top: 20px;
+}
+/*more info link edit*/
+.more-info {
+  display: inline-block;
+  margin-top: 10px;
+}
+/* links */
+a:link {
+  color: brown;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(187, 151, 151);
+}
+
+a:hover {
+  color: rgb(104, 25, 25);
+  background-color: azure;
+}
+a:active {
+  color: rgb(0, 0, 0);
+}
+/* button */
+.addtocart {
+  background-color: black;
+  width: 825px;
+  height: 30px;
+  border-top: 5px solid brown;
+}
+.addtocart:hover {
+  background-color: white;
+}
+/* liststyle */
+li {
+  list-style: square;
+  margin-left: 20px;
+  padding: 3px;
+}
+li:last-child {
+  margin-bottom: 20px;
+}
+/*heading 3*/
+h3 {
+  padding: 20px 0;
+}
+h4 {
+  padding: 20px 0;
+}
+/*container centering*/
+.container {
+  border: 5px solid brown;
+  margin: 20px auto;
+  width: 825px;
+  position: relative;
+}
+
+/*sale option visibility*/
+.sales {
+  color: white;
+  background-color: red;
+  display: inline;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+/*available colors*/
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
